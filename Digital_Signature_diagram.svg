@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="1500px"
+   height="1125px"
+   enable-background="new"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Digital_Signature_diagram.svg"
+   inkscape:export-filename="P:\Mes Documents\01_Cours\120-Infobase\12020-supports_de_cours_et_tp\theorie\Digital_Signature_diagram.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata251">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="1028"
+     id="namedview249"
+     showgrid="false"
+     inkscape:zoom="1.1866823"
+     inkscape:cx="766.49923"
+     inkscape:cy="806.76294"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g169" />
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="style6">
+	        text {
+	            letter-spacing: -.02em;
+	        }
+	    </style>
+    <!-- size: 120 x 150 -->
+    <g
+       id="page"
+       style="fill: #E7E7E7; stroke: #000000">
+      <polygon
+         stroke-width="1"
+         points="75,0 75,45 120,45"
+         id="polygon9" />
+      <polygon
+         stroke-width="2"
+         points="0,0 75,0 75,45 120,45 120,150 0,150"
+         id="polygon11" />
+      <line
+         id="shortLine"
+         stroke-width="1"
+         x1="15"
+         y1="21.5"
+         x2="60"
+         y2="21.5" />
+      <use
+         xlink:href="#shortLine"
+         transform="translate(0 21.5)"
+         id="use14" />
+      <line
+         id="longLine"
+         stroke-width="1"
+         x1="15"
+         y1="64.5"
+         x2="105"
+         y2="64.5" />
+      <use
+         xlink:href="#longLine"
+         transform="translate(0 21.5)"
+         id="use17" />
+      <use
+         xlink:href="#longLine"
+         transform="translate(0 43)"
+         id="use19" />
+      <use
+         xlink:href="#longLine"
+         transform="translate(0 64.5)"
+         id="use21" />
+      <use
+         xlink:href="#longLine"
+         transform="translate(0 86)"
+         id="use23" />
+    </g>
+    <!-- size: 88 x 110 -->
+    <g
+       id="smallPage"
+       style="fill: #E7E7E7; stroke: #000000">
+      <rect
+         stroke-width="2"
+         width="88"
+         height="110"
+         id="rect26" />
+      <line
+         id="longLine2"
+         stroke-width="1"
+         x1="11"
+         y1="15.5"
+         x2="77"
+         y2="15.5" />
+      <use
+         xlink:href="#longLine2"
+         transform="translate(0 15.5)"
+         id="use29" />
+      <use
+         xlink:href="#longLine2"
+         transform="translate(0 31)"
+         id="use31" />
+      <use
+         xlink:href="#longLine2"
+         transform="translate(0 46.5)"
+         id="use33" />
+      <use
+         xlink:href="#longLine2"
+         transform="translate(0 62)"
+         id="use35" />
+      <use
+         xlink:href="#longLine2"
+         transform="translate(0 77.5)"
+         id="use37" />
+    </g>
+    <!-- size: 200 x 50 -->
+    <g
+       id="strip">
+      <rect
+         fill="#E7E7E7"
+         stroke="#000000"
+         stroke-width="2"
+         width="200"
+         height="50"
+         id="rect40" />
+    </g>
+    <g
+       id="hash">
+      <use
+         xlink:href="#strip"
+         id="use43" />
+      <text
+         fill="#000000"
+         text-anchor="middle"
+         font-family="DejaVu Sans"
+         font-size="26"
+         style="letter-spacing: -.05em"
+         x="100"
+         y="34"
+         id="text45">101100110101</text>
+    </g>
+    <!-- size: 28 x 37 -->
+    <g
+       id="lock">
+      <path
+         fill="#FFFFFF"
+         stroke="#000000"
+         stroke-width="5"
+         d="M5,0 l0,-6 a8.5,8.5 0 0,1 17,0 l0,6"
+         transform="translate(0 15)"
+         id="path48" />
+      <rect
+         fill="#000000"
+         y="15"
+         width="28"
+         height="22"
+         id="rect50" />
+    </g>
+    <g
+       id="signature">
+      <use
+         xlink:href="#strip"
+         id="use53" />
+      <use
+         xlink:href="#lock"
+         x="-14"
+         y="7"
+         id="use55" />
+      <text
+         fill="#000000"
+         text-anchor="middle"
+         font-family="DejaVu Sans"
+         font-size="25"
+         style="letter-spacing: -.05em"
+         x="104"
+         y="34"
+         id="text57">111101101110</text>
+    </g>
+    <!-- size: 60 x 222.5 -->
+    <g
+       id="ribbon">
+      <polygon
+         fill="#FFFFFF"
+         stroke="#000000"
+         stroke-width="3.33"
+         transform="scale(0.6 0.6)"
+         points="92.447,136.964 53.47,22.669 14.487,136.964 53.47,109.421 "
+         id="polygon60" />
+      <polygon
+         fill="#FFFFFF"
+         stroke="#000000"
+         stroke-width="3.33"
+         transform="scale(0.6 0.6)"
+         points="53.468,3.479 59.672,16.464 69.76,6.198 71.411,20.493                  84.284,14.058 81.205,28.114 95.469,26.21 87.992,38.505 102.104,41.333 91.041,50.536 103.467,57.792 90.015,62.905 99.413,73.804                  85.031,74.272 90.38,87.63 76.626,83.401 77.346,97.772 65.71,89.308 61.725,103.134 53.468,91.351 45.21,103.134 41.227,89.308                  29.59,97.772 30.313,83.401 16.556,87.63 21.908,74.269 7.522,73.804 16.92,62.905 3.467,57.792 15.896,50.536 4.834,41.333                  18.944,38.505 11.466,26.21 25.729,28.114 22.651,14.058 35.524,20.493 37.178,6.198 47.265,16.464 "
+         id="polygon62" />
+    </g>
+    <g
+       id="ribbonPage">
+      <use
+         xlink:href="#page"
+         id="use65" />
+      <use
+         xlink:href="#ribbon"
+         transform="translate(9 89)"
+         id="use67" />
+    </g>
+    <g
+       id="smallRibbonPage">
+      <use
+         xlink:href="#smallPage"
+         id="use70" />
+      <use
+         xlink:href="#ribbon"
+         transform="scale(0.88 0.88) translate(9 63)"
+         id="use72" />
+    </g>
+    <!-- size: 162 x 124 -->
+    <g
+       id="arrowRight">
+      <path
+         fill="#FFFFFF"
+         stroke="#000000"
+         stroke-width="2"
+         d="M0,27 l100,0 l0,-27 l62,62 l-62,62 l0,-27 l-100,0 z"
+         id="path75" />
+    </g>
+    <!-- size: 171 x 130 -->
+    <g
+       id="arrowDown">
+      <path
+         fill="#FFFFFF"
+         stroke="#000000"
+         stroke-width="2"
+         d="M32,0 l0,80 l-32,0 l85.5,50 l85.5,-50 l-32,0 l0,-80 z"
+         id="path78" />
+    </g>
+    <!-- size: 241 x 188 -->
+    <g
+       id="largeArrowDown">
+      <path
+         fill="#FFFFFF"
+         stroke="#000000"
+         stroke-width="2"
+         d="M44,0 l0,115 l-44,0 l120.5,73 l120.5,-73 l-44,0 l0,-115 z"
+         id="path81" />
+    </g>
+    <!-- size 50 x 20 -->
+    <g
+       id="key"
+       style="fill: none; stroke: #000000; stroke-width: 4.5; stroke-linecap: square">
+      <line
+         x1="0"
+         y1="10"
+         x2="30"
+         y2="10"
+         id="line84" />
+      <line
+         x1="0"
+         y1="10"
+         x2="0"
+         y2="22"
+         id="line86" />
+      <line
+         x1="11"
+         y1="10"
+         x2="11"
+         y2="22"
+         id="line88" />
+      <circle
+         r="10"
+         cx="40"
+         cy="10"
+         id="circle90"
+         d="M 50,10 C 50,15.522847 45.522847,20 40,20 34.477153,20 30,15.522847 30,10 30,4.4771525 34.477153,0 40,0 45.522847,0 50,4.4771525 50,10 z" />
+    </g>
+    <g
+       id="largeArrowDownKey">
+      <use
+         xlink:href="#largeArrowDown"
+         id="use93" />
+      <use
+         xlink:href="#key"
+         transform="translate(95 122)"
+         id="use95" />
+    </g>
+  </defs>
+  <g
+     style="text-anchor: middle"
+     id="g97">
+    <g
+       transform="translate(68 130)"
+       id="g99">
+      <g
+         id="g101">
+        <use
+           xlink:href="#page"
+           id="use103" />
+      </g>
+      <g
+         transform="translate(155 17.5)"
+         id="g107">
+        <use
+           xlink:href="#arrowRight"
+           id="use109" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="72.782616"
+           y="53.073982"
+           id="text3240"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3242"
+             x="72.782616"
+             y="53.073982"
+             style="font-size:24px">Fonction de</tspan><tspan
+             sodipodi:role="line"
+             x="72.782616"
+             y="83.073982"
+             id="tspan3244"
+             style="font-size:24px">hashage</tspan></text>
+      </g>
+      <g
+         transform="translate(346 54)"
+         id="g117">
+        <use
+           xlink:href="#hash"
+           id="use119" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="97.510117"
+           y="73.876587"
+           id="text3236"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3238"
+             x="97.510117"
+             y="73.876587"
+             style="font-size:24px">Empreinte</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="-286.35712"
+           y="122.21596"
+           id="text3236-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3238-7"
+             x="-286.35712"
+             y="122.21596"
+             style="font-size:24px">Données</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="-145.62863"
+           y="417.99857"
+           id="text3236-4"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3238-0"
+             x="-145.62863"
+             y="417.99857"
+             style="font-size:24px">Certificat</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="489.73865"
+           y="420.28958"
+           id="text3236-1-5"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3238-7-5"
+             x="489.73865"
+             y="420.28958"
+             style="font-size:24px">Données</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="490.59891"
+           y="693.5567"
+           id="text3236-7"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3238-6"
+             x="490.59891"
+             y="693.5567"
+             style="font-size:24px">Empreinte</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="891.71722"
+           y="692.71405"
+           id="text3236-7-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3238-6-4"
+             x="891.71722"
+             y="692.71405"
+             style="font-size:24px">Empreinte</tspan></text>
+      </g>
+      <g
+         transform="translate(325 173)"
+         id="g123">
+        <use
+           xlink:href="#largeArrowDownKey"
+           id="use125" />
+      </g>
+      <g
+         transform="translate(346 392)"
+         id="g135">
+        <use
+           xlink:href="#signature"
+           id="use137" />
+        <text
+           font-size="26"
+           x="100"
+           y="88"
+           id="text139"
+           font-family="DejaVu Sans"
+           fill="#000000">Signature</text>
+      </g>
+      <g
+         transform="translate(157 320)"
+         id="g141">
+        <use
+           xlink:href="#smallRibbonPage"
+           id="use143" />
+      </g>
+      <g
+         transform="translate(340 485)"
+         id="g147">
+        <path
+           d="M0,92 C0,0 237,92 237,0"
+           id="path149"
+           stroke-width="4"
+           stroke="#000000"
+           fill="none" />
+        <path
+           d="M0,92 C0,0 -237,92 -237,0"
+           id="path151"
+           stroke-dasharray="13.5,7"
+           stroke-width="4"
+           stroke="#000000"
+           fill="none" />
+      </g>
+      <g
+         transform="translate(254 600)"
+         id="g153">
+        <use
+           xlink:href="#arrowDown"
+           id="use155" />
+        <text
+           font-size="24"
+           transform="translate(86,40)"
+           id="text157"
+           style="font-size:24px;letter-spacing:-0.02em;fill:#000000;font-family:DejaVu Sans" />
+      </g>
+      <g
+         transform="translate(280 755)"
+         id="g163">
+        <use
+           xlink:href="#ribbonPage"
+           id="use165" />
+        <text
+           font-size="26"
+           x="60"
+           y="205"
+           id="text167"
+           style="font-size:26px;letter-spacing:-0.02em;fill:#000000;font-family:DejaVu Sans" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:37.90800095px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="515.8316"
+         y="182.1506"
+         id="text3228"
+         sodipodi:linespacing="125%"
+         transform="scale(0.86309113,1.1586262)"><tspan
+           sodipodi:role="line"
+           id="tspan3230"
+           x="515.8316"
+           y="182.1506"
+           style="font-size:18.95400047px">Chiffrer l'empreinte</tspan><tspan
+           sodipodi:role="line"
+           x="515.8316"
+           y="205.84311"
+           id="tspan3232"
+           style="font-size:18.95400047px">avec la clé privée</tspan><tspan
+           sodipodi:role="line"
+           x="515.8316"
+           y="229.5356"
+           id="tspan3234"
+           style="font-size:18.95400047px">du signataire</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:41.85109711px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="404.02368"
+         y="505.48389"
+         id="text3228-1"
+         sodipodi:linespacing="125%"
+         transform="scale(0.83891789,1.1920118)"><tspan
+           sodipodi:role="line"
+           id="tspan3230-7"
+           x="404.02368"
+           y="505.48389"
+           style="font-size:20.92554855px" /><tspan
+           sodipodi:role="line"
+           x="404.02368"
+           y="531.64081"
+           id="tspan3234-0"
+           style="font-size:20.92554855px">Joindre avec</tspan><tspan
+           sodipodi:role="line"
+           x="404.02368"
+           y="557.79779"
+           style="font-size:20.92554855px"
+           id="tspan3144">les données</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="331.83032"
+         y="951.48657"
+         id="text3236-9"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3238-4"
+           x="331.83032"
+           y="951.48657"
+           style="font-size:28px">Données signées numériquement</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="1041.8158"
+         y="209.82962"
+         id="text3236-9-8"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3238-4-8"
+           x="1041.8158"
+           y="209.82962"
+           style="font-size:28px">Données signées numériquement</tspan></text>
+    </g>
+    <g
+       transform="translate(802 145)"
+       id="g169">
+      <g
+         transform="scale(0.95 0.95) translate(18 522)"
+         id="g191">
+        <use
+           xlink:href="#arrowDown"
+           id="use193" />
+      </g>
+      <g
+         transform="translate(240 0)"
+         id="g171">
+        <use
+           xlink:href="#ribbonPage"
+           id="use173" />
+      </g>
+      <g
+         transform="translate(108 208)"
+         id="g177">
+        <line
+           stroke="#000000"
+           stroke-width="4"
+           x1="50"
+           y1="0"
+           x2="0"
+           y2="50"
+           id="line179" />
+      </g>
+      <g
+         transform="translate(444 208)"
+         id="g181">
+        <line
+           stroke="#000000"
+           stroke-width="4"
+           x1="0"
+           y1="0"
+           x2="50"
+           y2="50"
+           id="line183" />
+      </g>
+      <g
+         transform="translate(38 282)"
+         id="g185">
+        <use
+           xlink:href="#page"
+           id="use187" />
+      </g>
+      <g
+         transform="translate(0 652)"
+         id="g201">
+        <use
+           xlink:href="#hash"
+           id="use203" />
+      </g>
+      <g
+         transform="translate(405 292)"
+         id="g207">
+        <use
+           xlink:href="#signature"
+           id="use209" />
+        <text
+           fill="#000000"
+           font-family="DejaVu Sans"
+           font-size="26"
+           x="100"
+           y="88"
+           id="text211">Signature</text>
+      </g>
+      <g
+         transform="translate(385 422)"
+         id="g213">
+        <use
+           xlink:href="#largeArrowDownKey"
+           id="use215" />
+      </g>
+      <g
+         transform="translate(405 652)"
+         id="g225">
+        <use
+           xlink:href="#hash"
+           id="use227" />
+      </g>
+      <g
+         transform="translate(300 664)"
+         id="g231">
+        <line
+           stroke="#000000"
+           stroke-width="7"
+           x1="-32"
+           y1="0"
+           x2="32"
+           y2="0"
+           id="line233" />
+        <line
+           stroke="#000000"
+           stroke-width="7"
+           x1="-32"
+           y1="24"
+           x2="32"
+           y2="24"
+           id="line235" />
+        <text
+           fill="#000000"
+           font-family="DejaVu Sans"
+           font-size="40"
+           y="-20"
+           id="text237">?</text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="334.51959"
+         y="829.97089"
+         id="text3240-1-1"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="334.51959"
+           y="829.97089"
+           style="font-size:28px"
+           id="tspan3282-5">Si les empreintes sont égales,</tspan><tspan
+           sodipodi:role="line"
+           x="334.51959"
+           y="864.97089"
+           style="font-size:28px"
+           id="tspan3380">alors la signature est valide</tspan></text>
+    </g>
+    <line
+       stroke="#000000"
+       stroke-width="1"
+       x1="730"
+       y1="0"
+       x2="730"
+       y2="1125"
+       id="line243" />
+    <text
+       fill="#000000"
+       font-family="DejaVu Sans"
+       font-size="50"
+       x="1095"
+       y="85"
+       id="text247">Verification</text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="347.18643"
+       y="81.755325"
+       id="text3267"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3269"
+         x="347.18643"
+         y="81.755325"
+         style="-inkscape-font-specification:sans;font-family:sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Signer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="900.3504"
+       y="664.38501"
+       id="text3240-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="900.3504"
+         y="664.38501"
+         id="tspan3244-2"
+         style="font-size:22px">Fonction</tspan><tspan
+         sodipodi:role="line"
+         x="900.3504"
+         y="694.38501"
+         style="font-size:22px"
+         id="tspan3280">de</tspan><tspan
+         sodipodi:role="line"
+         x="900.3504"
+         y="724.38501"
+         style="font-size:22px"
+         id="tspan3282">hashage</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1306.7421"
+       y="598.29041"
+       id="text3240-1-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1306.7421"
+         y="598.29041"
+         style="font-size:22px"
+         id="tspan3282-2">Déchiffrer avec</tspan><tspan
+         sodipodi:role="line"
+         x="1306.7421"
+         y="625.79041"
+         style="font-size:22px"
+         id="tspan3358">la clé publique</tspan><tspan
+         sodipodi:role="line"
+         x="1306.7421"
+         y="653.29041"
+         style="font-size:22px"
+         id="tspan3360">du signataire</tspan></text>
+  </g>
+</svg>
