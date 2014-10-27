@@ -17,6 +17,7 @@
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 \usepackage{url}
+\usepackage{soul}
 
 
 \logo{\includegraphics[width=1.9cm]{heg-logo.jpg}}
@@ -65,7 +66,7 @@
 			\onslide<1>\item Qu'est-ce que \alert{la sécurité} vous évoque ?
 			\onslide<2->\item \href{http://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/}{{\color{blue}Worlds biggest data breaches hacks}}
 			% Attention, les liens suivants sont morts, d'ailleurs parce que le site a à nouveau été hacké
-			\onslide<3->\item \href{http://annelaurejacquart.com/2013/11/le-site-est-mort-vive-le-site/} {{\color{blue}Le site est mort, vive le site !}} et \href{https://www.mavenhosting.com/clients/announcements.php?id=8}{{\color{blue}mavenhosting}}
+			\onslide<3->\item \href{http://annelaurejacquart.com/2013/11/le-site-est-mort-vive-le-site/} {{\color{blue}\st{Le site est mort, vive le site !}}} et \href{https://www.mavenhosting.com/clients/announcements.php?id=8}{{\color{blue}\st{mavenhosting}}}
 			\onslide<4->\item \href{http://reflets.info/a-propos-des-journees-portes-ouvertes-du-groupe-ump-au-senat/}{{\color{blue}Journée portes ouvertes du groupe UMP au Sénat}}
 		\end{itemize}
 	\end{frame}
@@ -317,17 +318,17 @@
 			\end{exampleblock}
 		\end{frame}
 		
-		\begin{frame}{}
-			\begin{center}
-				\includegraphics[scale=.3]{Digital_Signature_diagram_01.png}
-			\end{center}
-		\end{frame}
-		
-		\begin{frame}{}
-			\begin{center}
-				\includegraphics[scale=.3]{Digital_Signature_diagram_02.png}
-			\end{center}
-		\end{frame}
+% 		\begin{frame}{}
+% 			\begin{center}
+% 				\includegraphics[scale=.3]{Digital_Signature_diagram_01.png}
+% 			\end{center}
+% 		\end{frame}
+% 		
+% 		\begin{frame}{}
+% 			\begin{center}
+% 				\includegraphics[scale=.3]{Digital_Signature_diagram_02.png}
+% 			\end{center}
+% 		\end{frame}
 
 %%%%%%%%%%%%%%%
 %% Section 3 %%
@@ -452,7 +453,7 @@
 				\end{itemize}
 			\end{exampleblock}
 			\onslide<2->\begin{exampleblock}{Disponibilité}
-				Les données doivent être accessible en tout temps.
+				Les données doivent être accessible en tout temps. Ou, du moins, de manière satisfaisante pour les besoins.
 			\end{exampleblock}
 		\end{frame}
 		
@@ -460,6 +461,9 @@
 			\onslide<1->\begin{exampleblock}{Confidentialité}
 				L'information ne doit être accessible et diffusée que par les personnes autorisées.
 			\end{exampleblock}
+			\onslide<2>Contexte des bibliothèques ? \\
+			\onslide<3>\href{https://id-libre.org/shaarli/?aUbIGw}{{\color{blue}Adobe Digital Edition 4.0}}
+		\begin{frame}{Transactions}
 			\begin{exampleblock}{Authentification}
 				Les acteurs doivent être identifiés et authentifiés, afin d'assurer la loyauté des transactions.
 			\end{exampleblock}
